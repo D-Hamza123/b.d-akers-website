@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro?styles=82961');
+                
+
+body {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    letter-spacing: 1px;   
+    word-spacing: 3px;                          
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.hm {
+    background-color: grey;
+}
+
+.offcanvas {
+    background-color: white;
+}
+
+.link-underline {
+  @apply relative inline-block pb-1
+         after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-blue-500 
+         after:scale-x-0 after:origin-right after:transition-transform after:duration-300 
+         hover:after:scale-x-100 hover:after:origin-left;
+}
